@@ -1,18 +1,14 @@
 import java.util.*;
 import java.io.*;
 public class TEMPLATE{
-public static void main (String[] args) {  		
-     out.println("Hello world");
+public static void main (String[] args) {
+     int t=sc.nextInt();//for taking integer input 
+     String s=sc.next();//for taking input string
+     int a[]=sc.Array(n);//taking input for n size array and inserting element//LINE NO 33
+     out.println("Hello world");//print hello world
 ////////////////////////////////////////////////////////////////////  	
 out.flush();out.close();
 }//*END OF MAIN METHOD*
-static Map<Integer, Integer> map(int[] a) {
-Map<Integer,Integer> map=new HashMap<>();
-for(int i:a){
-    map.put(i,map.getOrDefault(i,0)+1);
-}
-return map;
-}
 static final Random random = new Random();
 static class FastScanner {
 public long[][] readArrayL;
@@ -46,7 +42,7 @@ double nextDouble() {
 return Double.parseDouble(next());
 }
 }
-static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));
-static FastScanner sc = new FastScanner();
+static PrintWriter out = new PrintWriter(new OutputStreamWriter(System.out));//PRINT METHOD
+static FastScanner sc = new FastScanner();//FASTSCANNER CLASS
 }//*END OF MAIN CLASS*
 

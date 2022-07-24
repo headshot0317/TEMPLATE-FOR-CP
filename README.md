@@ -1,0 +1,2 @@
+# TEMPLATE-FOR-CP
+This is a fast I/O method as it makes use of User-defined class where in a user makes a class of his own and defines every function in that class like nextInt() to take input integer values, nextLine() function to input multiple words, next() function to input Strings, nextFloat() function to read float values, nextDouble() function to read double values. With the help of the object of this user-defined class, we can directly call these functions (ex-obj.functionName) to read the desired type of data.

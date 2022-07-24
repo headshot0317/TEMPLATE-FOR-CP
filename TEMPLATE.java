@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-class solution{
+public class TEMPLATE{
 public static void main (String[] args) {  		
      out.println("Hello world");
 ////////////////////////////////////////////////////////////////////  	

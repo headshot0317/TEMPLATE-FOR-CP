@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 class solution{
 public static void main (String[] args) {  		
-     
+     out.println("Hello world");
 ////////////////////////////////////////////////////////////////////  	
 out.flush();out.close();
 }//*END OF MAIN METHOD*
